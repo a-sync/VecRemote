@@ -1,0 +1,35 @@
+<ScriptInfo>	
+	<Information>
+		<Name>VecRemote</Name>
+
+			<Description>Vector Akashi's Remote control script v1.0. Remote control your MSN and your PC at home, from anywhere! Browse your files, run programs, etc...</Description>
+
+		<AboutUrl>vector.akashi@gmail.com</AboutUrl>
+		<Version>1.0.0</Version>
+	</Information>
+
+	<ScriptMenu>
+		<MenuEntry Id="VRpass">Set password</MenuEntry>
+		<MenuEntry Id="VRhelp">Help...</MenuEntry>
+		<Separator />
+		<MenuEntry Id="VRcredits">Credits</MenuEntry>
+	</ScriptMenu>
+
+	<ScriptCommands>
+		<Command>
+			<Name>vrpass</Name>
+			<Description>Set VecRemote password</Description>
+			<Parameters>&lt;password&gt;</Parameters>
+		</Command>
+		<Command>
+			<Name>vrhelp</Name>
+			<Description>VecRemote Help...</Description>
+		</Command>
+		<Command>
+			<Name>vrcredits</Name>
+			<Description>Show the VecRemote credits</Description>
+			<Parameters>&lt;VecRemote by Vector Akashi&gt;</Parameters>
+		</Command>
+	</ScriptCommands>
+
+</ScriptInfo>
